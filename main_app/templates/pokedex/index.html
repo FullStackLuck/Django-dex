@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+{% block content %}
+{%load static%}
+<h1>Pokedex</h1>
+{% for Pokemon in pokedex %}
+<a href="{% url 'detail' Pokemon.id %}">
+  <div class="d-flex">
+    <div class="p-2 bg-info flex-fill"><p>
+       {{ Pokemon.name}}</p>
+  </div>
+</a>
+</div>
+    
+{% endfor %}
+
+{% endblock %}

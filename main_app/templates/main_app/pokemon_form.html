@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+{% block content %}
+  <form action="" method="post">
+    
+    {% csrf_token %}
+    <table>
+     
+      {{ form.as_table }}
+      <p>Transfer to another Pokedex</p>
+    </table>
+    <input type="submit" value="Add Pokemon!" class="btn">
+  </form>
+{% endblock %}
