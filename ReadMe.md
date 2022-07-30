@@ -27,22 +27,22 @@
 | Endpoint | Method | Response | Other |
 | -------- | ------ | -------- | ----- |
 | / | GET | Display of all Pokedex | |
-| /pokemon | POST | Create new Wine | body must include data for new item |
+| /pokemon | POST | Create new pokemon to the pokedex | body must include data for new item |
 | /pokemon/:id | GET | Get a Pokemon Details | |
 | /pokemon/:id | PUT | Update/Change Pokemon information | body must include updated data |
 | /:pokemon/:id | DELETE | Delete a pokemon by id | |
 
 
 ## ERD
-[Imgur](https://i.imgur.com/1LjDDqG.png)
+![Imgur](https://i.imgur.com/1LjDDqG.png)
 
 
 ## User Interface Mockups
+![Mock ups](https://i.imgur.com/1qeblls.png)
 
 
 ## Live Site
-
-https://django-dex.herokuapp.com
+[Djangodex ](https://django-dex.herokuapp.com)
 
 ## Future Enhancements
 1.Adding Pokemon more Pokemon Data
